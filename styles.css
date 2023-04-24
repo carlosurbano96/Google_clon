@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    border: 2px #dedede;
+    width: 100%;
+}
+header a{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    padding-left: 7px;
+    position: relative;
+    left: 77%;
+    font-size: 15px;
+    text-decoration: none;
+}
+header img{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    left: 77%;
+}
+
+#principal {
+    text-align: center;
+}
+
+#Linea_de_busqueda {
+    font: 16px;
+    line-height: 34px;
+    height: 34px;
+    padding: 5px 8px 0 16px;
+    margin: 20px auto;
+    width: 584px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.18);
+}
+
+main{
+    text-align: center;
+}
+#Vacio{
+    margin: 220px;
+}
+#Pie1{
+    float: left;
+    display: inline-block;
+    /*background-color: #ececec; */
+    padding: 12px;
+}
+
+#Pie1 a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Pie2{
+    float: right;
+    display: inline-block;
+    /* background-color: #ececec;*/
+    padding: 12px;
+}
+
+#Pie2 a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    /* background-color: #ececec;*/
+    padding: 1px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#Microfono {
+	width: auto;
+	border: 0px;
+	position: relative;
+	right: 50px;
+    top: 10.5px;
+}
+
+#Lupa {
+	width: auto;
+	border: 0px;
+	position: relative;
+	left: 50px;
+    top: 10.5px;
+}
